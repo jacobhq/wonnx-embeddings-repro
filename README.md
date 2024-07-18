@@ -1,5 +1,5 @@
 # wonnx-embeddings-repro
-> I'm attempting to embed some text as vectors in the browser using rust, webassembly and wonnx. When I try and run my model in the demo, I get these errors in the console: console:
+> I'm attempting to embed some text as vectors in the browser using rust, webassembly and wonnx. When I try and run my model in the demo, I get these errors in the console:
 
 ## Errors
 ```
