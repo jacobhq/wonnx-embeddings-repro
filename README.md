@@ -27,6 +27,9 @@ I've read these, and they partly inspired the project. Attaching them in case th
 - Windows 11 Home
 - All necessary deps for rust are installed and working (including visual studio)
 
+> [!IMPORTANT]  
+> To use wonnx in the browser, you must enable the [enable-unsafe-webgpu](chrome://flags/#enable-unsafe-webgpu) chrome flag.
+
 ## Steps to Run This Repro
 - `pip install onnx-simplifier`
 - `python -m onnxsim model/all-MiniLM-L6-v2/onnx/model.onnx model/all-MiniLM-L6-v2/onnx/model_sim.onnx`
