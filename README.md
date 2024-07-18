@@ -1,5 +1,5 @@
 # wonnx-embeddings-repro
-> When I try and run my model in the demo, I get these errors in the console:
+> I'm attempting to embed some text as vectors in the browser using rust, webassembly and wonnx. When I try and run my model in the demo, I get these errors in the console: console:
 
 ## Errors
 ```
@@ -15,6 +15,7 @@ App.tsx:7 Uncaught (in promise) Failed to load embedder: Failed to load model: I
 ```
 
 ## Relevant Posts
+- https://stackoverflow.com/questions/78763732/getting-console-errors-when-trying-to-run-model-in-browser-using-rust-wasm-and
 - Output of `cargo tree`: https://gist.github.com/jacobhq/f20dfe14e5adf7a60843d29e5eccc6e2
 
 ## Related Code and Reading
