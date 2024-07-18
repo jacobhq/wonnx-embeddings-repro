@@ -7,7 +7,7 @@ use wasm_bindgen::prelude::wasm_bindgen;
 
 const DIM: usize = 384;
 
-static MODEL_DATA: &'static [u8] = include_bytes!("../model/all-MiniLM-L6-v2/onnx/model.onnx",);
+static MODEL_DATA: &'static [u8] = include_bytes!("../model/all-MiniLM-L6-v2/onnx/model_sim.onnx",);
 static TOKENIZER_DATA: &'static [u8] = include_bytes!("../model/all-MiniLM-L6-v2/tokenizer.json",);
 
 fn average_pool(last_hidden_layer: &[f32], mask: &[i32]) -> Vec<f32> {
