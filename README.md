@@ -17,6 +17,11 @@ App.tsx:7 Uncaught (in promise) Failed to load embedder: Failed to load model: I
 ## Relevant Posts
 - Output of `cargo tree`: https://gist.github.com/jacobhq/f20dfe14e5adf7a60843d29e5eccc6e2
 
+## Related Code and Reading
+I've read these, and they partly inspired the project. Attaching them in case they are useful.
+- [Semantic search powered by WASM and WebGPU](https://medium.com/@aminedirhoussi1/semantic-search-powered-by-wasm-and-wgpu-492e900b8796)
+- [AmineDiro/docvec](https://github.com/AmineDiro/docvec)
+
 ## My Setup
 - Windows 11 Home
 - All necessary deps for rust are installed and working (including visual studio)
